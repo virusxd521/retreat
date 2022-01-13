@@ -1,1 +1,27 @@
-text-align: center;
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The body */
+.body {
+  background-image: url("./img/bg.jpg");
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header  */
+.header {
+  margin: 0 auto;
+}
+
+.main--header {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
